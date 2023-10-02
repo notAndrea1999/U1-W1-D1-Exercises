@@ -19,6 +19,7 @@ public class Exercise2 {
         String thirdStr = userInput.nextLine();
         System.out.println("Le tue tre parole formano la frase: " + concat(firstStr + " ", secondStr + " ", thirdStr));
         System.out.println("Le tue tre parole formano la frase al contrario : " + (concat(thirdStr + " ", secondStr + " ", firstStr)));
+        userInput.close();
     }
 
 }
